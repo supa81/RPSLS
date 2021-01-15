@@ -21,12 +21,18 @@ namespace RPSLS
         //Paper covers Rock
         public void PaperCoversRock()
         {
-
+            if (2 > 1)
+            {
+                Console.WriteLine("Paper Covers Rock!");
+            }
         }
         //Paper disproves Spock
         public void PaperDisprovesSprock()
         {
-
+            if (2 > 5)
+            {
+                Console.WriteLine("Paper Disproves Sprock");
+            }
         }
     }
 }

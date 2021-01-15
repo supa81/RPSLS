@@ -8,7 +8,7 @@ namespace RPSLS
     {
         //MEMBER VARIABLES - HAS A
    
-       public List<Gestures> gestures;
+       public List<Gestures> listOfGestures;
         
         
         
@@ -17,7 +17,7 @@ namespace RPSLS
         //CONSTRUCTOR - SPAWN
         public Gestures()
         {
-           gestures = new List<Gestures>();
+           listOfGestures = new List<Gestures>();
 
         }
         

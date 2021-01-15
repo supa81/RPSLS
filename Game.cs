@@ -11,7 +11,7 @@ namespace RPSLS
         //SINGLE PLAYER OR MULTI?
         Console.WriteLine("Single player or Mulitplayer?");
         //WHO GOES FIRST ? CHOOSE GESTURE
-        Console.WriteLine("Player one go first choose your gesture");
+        
         // NEXT PERSON CHOOSE GESTURE
         
         //MAKE COMPARSION BETWEEN TWO GESTURES

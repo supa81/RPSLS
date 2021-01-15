@@ -20,12 +20,18 @@ namespace RPSLS
         //Scissors cuts Paper
         public void ScissorsCutsPaper()
         {
-
+            if (3 > 2)
+            {
+                Console.WriteLine("Scissors Cuts Paper!");
+            }
         }
         //Scissors decapitates Lizard
         public void ScissorsDecapitatesLizard()
         {
-
+            if (3 > 4)
+            {
+                Console.WriteLine("Scissors Decapitates Lizard!");
+            }
         }
         
     }

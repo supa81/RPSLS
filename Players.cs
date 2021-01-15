@@ -7,14 +7,14 @@ namespace RPSLS
     class Players
     {
         //MEMBER VARIABLES - HAS A
-        public PlayerOne;
-        public PlayerTwo;
+        List<Players> listOfPlayers;
+
 
 
         //CONSTRUCTOR - SPAWN
         public Players()
         {
-
+            listOfPlayers = new List<Players>();
         }
 
         //MEMBER METHODS - CAN DO 
