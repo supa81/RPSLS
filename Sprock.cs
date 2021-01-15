@@ -4,26 +4,25 @@ using System.Text;
 
 namespace RPSLS
 {
-    class Lizard
+    class Sprock
     {
         //MEMBER VARIABLES - HAS A
-        int lizard;
+        int sprock;
 
         //CONSTRUCTOR - SPAWN
-        public Lizard(int lizard)
+        public Sprock(int sprocket)
         {
-            this.lizard = 4;
+            this.sprock = 5;
         }
 
         //MEMBER METHODS - CAN DO 
-
-        //Lizard poisons Spock
-        public void LizardPosionsSprock()
+        //Spock smashes Scissors
+        public void SprockSmashesScissors()
         {
 
         }
-        //Lizard eats Paper
-        public void LizardEatsPper()
+        //Spock vaporizes Roc
+        public void SprockVaporizesRock()
         {
 
         }

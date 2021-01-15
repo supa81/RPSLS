@@ -4,14 +4,29 @@ using System.Text;
 
 namespace RPSLS
 {
-    class scissors
+    class Scissors
     {
         //MEMBER VARIABLES - HAS A
-
+        int scissors;
 
         //CONSTRUCTOR - SPAWN
+        public Scissors(int scissors)
+        {
+            this.scissors = 3;
+        }
 
+        //MEMBER METHODS - CAN DO
+        
+        //Scissors cuts Paper
+        public void ScissorsCutsPaper()
+        {
 
-        //MEMBER METHODS - CAN DO 
+        }
+        //Scissors decapitates Lizard
+        public void ScissorsDecapitatesLizard()
+        {
+
+        }
+        
     }
 }

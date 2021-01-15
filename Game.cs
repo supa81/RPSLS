@@ -7,7 +7,7 @@ namespace RPSLS
     class Game
     {
         //DISPLAY THE RULES 
-        Console.WriteLine("Rules!");
+        public Console.WriteLine("Rules!");
         //SINGLE PLAYER OR MULTI?
         Console.WriteLine("Single player or Mulitplayer?");
         //WHO GOES FIRST ? CHOOSE GESTURE
