@@ -4,19 +4,20 @@ using System.Text;
 
 namespace RPSLS
 {
-    class Players
+    class Spock : Gestures
     {
         //MEMBER VARIABLES - HAS A
-        List<Players> listOfPlayers;
-
 
 
         //CONSTRUCTOR - SPAWN
-        public Players()
+        public Spock()
         {
-            listOfPlayers = new List<Players>();
+            nameOfGesture = "Spock";
         }
 
         //MEMBER METHODS - CAN DO 
+        //Spock smashes Scissors
+        //Spock vaporizes Roc
+        
     }
 }

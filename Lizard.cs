@@ -4,28 +4,23 @@ using System.Text;
 
 namespace RPSLS
 {
-    class Lizard
+    class Lizard : Gestures
     {
         //MEMBER VARIABLES - HAS A
-        int lizard;
+
 
         //CONSTRUCTOR - SPAWN
-        public Lizard(int lizard)
+        public Lizard()
         {
-            this.lizard = 4;
+            nameOfGesture = "Lizard";
         }
 
         //MEMBER METHODS - CAN DO 
 
         //Lizard poisons Spock
-        public void LizardPosionsSprock()
-        {
-
-        }
+        
         //Lizard eats Paper
-        public void LizardEatsPper()
-        {
-
-        }
+       
+        
     }
 }

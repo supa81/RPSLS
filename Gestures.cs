@@ -4,22 +4,18 @@ using System.Text;
 
 namespace RPSLS
 {
-    class Gestures
+    abstract class Gestures 
     {
         //MEMBER VARIABLES - HAS A
-   
-       public List<Gestures> listOfGestures;
+
+        public string nameOfGesture;
         
         
         
 
 
         //CONSTRUCTOR - SPAWN
-        public Gestures()
-        {
-           listOfGestures = new List<Gestures>();
-
-        }
+       
         
         //MEMBER METHODS - CAN DO 
 

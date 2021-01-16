@@ -4,15 +4,16 @@ using System.Text;
 
 namespace RPSLS
 {
-    class Rock
+    class Rock : Gestures
     {
         //MEMBER VARIABLES - HAS A
-        int rock;
+
 
         //CONSTRUCTOR - SPAWN
-        public Rock(int rock)
+
+        public Rock()
         {
-            this.rock = 1;
+            nameOfGesture = "Rock";
         }
 
 
@@ -20,24 +21,12 @@ namespace RPSLS
 
         //Rock crushes Lizard
 
-        public void RockCrushesLizard()
-        {
-            if (1 < 4)
-            {
-                Console.WriteLine("Rock Crushes Lizard!!");
-            }
-
-        }
+       
         //Rock crushes Scissors
 
-        public void RockCrushesScissors()
-        {
-            if (1 < 3)
-            {
-                Console.WriteLine("Rock Crushes Sicissors!!");
-            }
+        
             //how to use inhertance with my classes and jestures
             //if (rock < lizard)
         }
     }
-}
+
