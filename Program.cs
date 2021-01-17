@@ -21,35 +21,35 @@ namespace RPSLS
             //}
 
             string userInput;
+            string userInput2;
             string inputCPU;
             int randomGesture;
 
             Console.WriteLine("Here are the rules to the game\nRock crushes Scissors, Scissors cuts Paper,\nPaper covers Rock, Rock crushes Lizard,\nLizard poisons Spock, Spock smashes Scissors,\nScissors decapitates Lizard, Lizard eats Paper,\nPaper disproves Spock, Spock vaporizes Rock");
-            Console.WriteLine("Select your game mode! \n Press 1 for PVE Press 2 for PVP");
+            Console.WriteLine("Select your game mode! \n\n Press 1 for PVE Press 2 for PVP");
             userInput = Console.ReadLine();
-            if (userInput.EndsWith("1")) 
+            if (userInput.EndsWith("1"))
             {
-                Console.WriteLine("PVE!!");
+                Console.WriteLine("PVE!!\n\n");
             }
             else if (userInput.EndsWith("2"))
             {
-                Console.WriteLine("PVP!!");
+                Console.WriteLine("PVP!!\n\n");
             }
 
             else
             {
-                
+
             }
-            Console.WriteLine("Choose your gesture ROCK, PAPER, SCISSORS, LIZARD, SPOCK!:  ");
+            Console.WriteLine("Choose your gesture 1 ROCK, 2 PAPER, 3 SCISSORS, 4 LIZARD, 5 SPOCK!\n\n");
             userInput = Console.ReadLine();
             Random rnd = new Random();
-            randomGesture = rnd.Next(1,5);
-
+            randomGesture = rnd.Next(1, 5);
 
             switch (randomGesture)
             {
                 case 1:
-                    
+
                     inputCPU = "rock";
                     Console.WriteLine("CPU choose ROCK");
                     userInput = Console.ReadLine();
@@ -67,6 +67,7 @@ namespace RPSLS
                     userInput = Console.ReadLine();
                     break;
                 case 4:
+
                     inputCPU = "Lizard";
                     Console.WriteLine("CPU choose Lizard");
                     userInput = Console.ReadLine();
@@ -77,47 +78,63 @@ namespace RPSLS
                     userInput = Console.ReadLine();
                     break;
 
+
+
+
+
+
+
+                    switch (randomGesture)
+                    {
+                        case 1:
+
+                            Console.WriteLine("Player Two choose your gesture");
+                            userInput2 = Console.ReadLine();
+                            Console.WriteLine();
+
+                            break;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+                    Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Console.ReadLine();
             }
-
-
-
-
-
-
-
-
-
-
-
-            Console.ReadLine();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            Console.ReadLine();
         }
     }
 }
