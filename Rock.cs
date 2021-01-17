@@ -25,8 +25,7 @@ namespace RPSLS
         //Rock crushes Scissors
 
         
-            //how to use inhertance with my classes and jestures
-            //if (rock < lizard)
+            
         }
     }
 
