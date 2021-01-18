@@ -13,7 +13,7 @@ namespace RPSLS
         //CONSTRUCTOR - SPAWN
         public Paper()
         {
-            nameOfGesture = "paper";
+            nameOfGesture = "Paper";
         }
 
         //MEMBER METHODS - CAN DO

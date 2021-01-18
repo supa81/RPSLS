@@ -13,7 +13,7 @@ namespace RPSLS
         public AI(string name)
             :base(name)
         {
-            Player ai = new AI("CPU");
+            
         }
 
         //MEMBER METHODS

@@ -13,7 +13,7 @@ namespace RPSLS
 
         public Scissors()
         {
-            nameOfGesture = "scissors";
+            nameOfGesture = "Scissors";
         }
         //MEMBER METHODS - CAN DO
         
