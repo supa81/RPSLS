@@ -17,10 +17,11 @@ namespace RPSLS
         }
 
         //MEMBER METHODS - CAN DO
-        
+
         //Paper covers Rock
         
+
         //Paper disproves Spock
-       
+        
     } 
 }

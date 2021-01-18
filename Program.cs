@@ -4,137 +4,36 @@ namespace RPSLS
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
 
-            //string playerOneGesture = "";
-            //string playerTwoGesture = "";
-            //Player playerOne = new Human("Bob");
-            //Player playerTwo = new Human("Bill");
-            //Console.WriteLine(playerOne.listOfGestures[0].nameOfGesture);
-            //if (playerOneGesture == "Rock") 
-            //{
-            //    if (playerTwoGesture == "Paper")
-            //    {
-            //        Console.WriteLine("PlayerOne Wins!!!!");
-            //    }
-            //}
-
-            string userInput;
-            string userInput2;
-            string inputCPU;
-            int randomGesture;
-
-            Console.WriteLine("Here are the rules to the game\nRock crushes Scissors, Scissors cuts Paper,\nPaper covers Rock, Rock crushes Lizard,\nLizard poisons Spock, Spock smashes Scissors,\nScissors decapitates Lizard, Lizard eats Paper,\nPaper disproves Spock, Spock vaporizes Rock");
-            Console.WriteLine("Select your game mode! \n\n Press 1 for PVE Press 2 for PVP");
-            userInput = Console.ReadLine();
-            if (userInput.EndsWith("1"))
-            {
-                Console.WriteLine("PVE!!\n\n");
-            }
-            else if (userInput.EndsWith("2"))
-            {
-                Console.WriteLine("PVP!!\n\n");
-            }
-
-            else
-            {
-
-            }
-            Console.WriteLine("Choose your gesture 1 ROCK, 2 PAPER, 3 SCISSORS, 4 LIZARD, 5 SPOCK!\n\n");
-            userInput = Console.ReadLine();
-            Random rnd = new Random();
-            randomGesture = rnd.Next(1, 5);
-
-            switch (randomGesture)
-            {
-                case 1:
-
-                    inputCPU = "rock";
-                    Console.WriteLine("CPU choose ROCK");
-                    userInput = Console.ReadLine();
-                    break;
-
-                case 2:
-                    inputCPU = "Paper";
-                    Console.WriteLine("CPU choose Paper");
-                    userInput = Console.ReadLine();
-                    break;
-
-                case 3:
-                    inputCPU = "Siccors";
-                    Console.WriteLine("CPU choose Scissors");
-                    userInput = Console.ReadLine();
-                    break;
-                case 4:
-
-                    inputCPU = "Lizard";
-                    Console.WriteLine("CPU choose Lizard");
-                    userInput = Console.ReadLine();
-                    break;
-                case 5:
-                    inputCPU = "Spock";
-                    Console.WriteLine("CPU choose Spock");
-                    userInput = Console.ReadLine();
-                    break;
+            Game game = new Game();
+            game.RunGame();
 
 
-
-
-
-
-
-                    switch (randomGesture)
-                    {
-                        case 1:
-
-                            Console.WriteLine("Player Two choose your gesture");
-                            userInput2 = Console.ReadLine();
-                            Console.WriteLine();
-
-                            break;
-                    }
-
-
-
-
-
-
-
-
-
-
-
-                    Console.ReadLine();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    Console.ReadLine();
-            }
         }
+
+
+
+
+
+
+
+
+
+
+
     }
+       
+
+
+
+
+
+
+
+
+       
+    
+  
 }

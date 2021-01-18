@@ -8,16 +8,17 @@ namespace RPSLS
     {
         //MEMBER VARIABLES - HAS A
 
-        public string nameOfGesture;
+        public string nameOfGesture; 
         
         
         
-
+        
 
         //CONSTRUCTOR - SPAWN
        
         
-        //MEMBER METHODS - CAN DO 
+        //MEMBER METHODS - CAN DO
+        
 
     }
 }

@@ -24,11 +24,11 @@ namespace RPSLS
         {
             this.name = name;
             listOfGestures = new List<Gestures>();
-            listOfGestures.Add(rock); 
-            listOfGestures.Add(paper);
-            listOfGestures.Add(scissors);
-            listOfGestures.Add(lizard);
-            listOfGestures.Add(spock);
+            listOfGestures.Add(rock); //[0]
+            listOfGestures.Add(paper); //[1]
+            listOfGestures.Add(scissors); //[2]
+            listOfGestures.Add(lizard); //[3]
+            listOfGestures.Add(spock); //[4]
         }
 
         //MEMBER METHODS - CAN DO 
